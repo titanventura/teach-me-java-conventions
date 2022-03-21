@@ -1,5 +1,3 @@
-package powerpackage;
-
 public class PowerFinder {
     public static int of(int base, int exponent) {
         int acc = 1;
