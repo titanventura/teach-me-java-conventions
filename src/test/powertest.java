@@ -4,22 +4,22 @@ import org.junit.Test;
 
 public class powertest {
     @Test
-    public void one_raised_to_one_is_one() {
+    public void oneRaisedToOneIsOne() {
         assert powerfinder.OF(1, 1) == 1;
     }
 
     @Test
-    public void two_raised_to_one_is_two() {
+    public void twoRaisedToOneIsTwo() {
         assert powerfinder.OF(2, 1) == 2;
     }
 
     @Test
-    public void two_raised_to_two_is_four() {
+    public void twoRaisedToTwoIsFour() {
         assert powerfinder.OF(2, 2) == 4;
     }
 
     @Test
-    public void three_raised_to_two_is_nine() {
+    public void threeRaisedToTwoIsNine() {
         assert powerfinder.OF(3, 2) == 3 * 3;
     }
 }
